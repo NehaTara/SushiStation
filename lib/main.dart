@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test_1/models/shop.dart';
 import 'package:flutter_test_1/pages/cart_page.dart';
-import 'package:flutter_test_1/pages/food_details_page.dart';
 import 'package:flutter_test_1/pages/login_page.dart';
 import 'package:flutter_test_1/pages/signUp_Page.dart';
 import 'package:provider/provider.dart';

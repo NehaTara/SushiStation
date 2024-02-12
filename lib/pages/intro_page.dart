@@ -20,23 +20,27 @@ class IntroPage extends StatelessWidget {
               const SizedBox(height: 25),
               
               //shop name
-              Text(
-                "SUSHI STATION",
-                 style: GoogleFonts.dmSerifDisplay(
-                   fontSize: 28,
-                   color: Colors.white, 
-                  ),
-                 ),
+              Center(
+  child: Text(
+    "SUSHI STATION",
+    style: GoogleFonts.dmSerifDisplay(
+      fontSize:  28,
+      color: Colors.white,
+    ),
+  ),
+),
           
                  const SizedBox(height: 25),
           
               //icon
-              Padding(
+              Center(
+                child: Padding(
                 padding: const EdgeInsets.all(50.0),
                 child: Image.asset('lib/images/Sashimi.png', height: 195,),
               ),
+            ),
           
-              const SizedBox(height: 25),
+              const SizedBox(height: 2),
           
               //title
               Text(
